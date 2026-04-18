@@ -1,0 +1,128 @@
+<!-- [2472056] - [Effrain David Martoyo] -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce - 2472056</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg d-flex justify-content-between align-items-center bg-dark text-light">TechStore
+        <button class="navbar-toggler" type="button" data-bs-toggle="collaps" data-bs-target="#a"><span
+                class="navbar-toggle-icon"></span></button>
+
+        <div class="navbar navbar-expand-lg">
+            <ul class="nav-links list-unstyled d-flex" id="a">
+                <li class="nav-item ms-1 me-1 mt-2"><a class="nav-link text-secondary" href="#">Home</a></li>
+                <li class="nav-item ms-1 me-1 mt-2"><a class="nav-link text-secondary" href="#">Produtcs</a></li>
+                <li class="nav-item ms-1 me-1 mt-2"><a class="nav-link text-secondary" href="#">FAQ</a></li>
+                <li class="nav-item ms-1 me-1 mt-2"><a class="nav-link text-secondary" href="#">About</a></li>
+            </ul>
+            <button class="btn btn-outline-primary ps-3 me-5 pe-3 d-none d-sm-flex">Enable Notifications</button>
+        </div>
+    </nav>
+    <section class="hero d-grid bg-primary text-light justify-content-center text-start pt-5 pb-5">
+        <h1>Upgrade Your Tech.</h1>
+        <h1>Upgrade Your Life</h1>
+        <p>The latest gadgets, best prices, and free delivery on all orders above RP 500.000</p>
+        <div class="hero-buttons">
+            <button class="btn btn-light text-dark fw-bold">Shop Now</button>
+            <button class="btn btn-outline-light">Learn More</button>
+        </div>
+    </section>
+    <section class="courses-section mt-5">
+        <h2 class="text-center">Promo Terbaru</h2>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner py-5">
+                <div class="carousel-item active bg-warning text-dark text-center">
+                    🎧
+                    <h5>Apa Kata Mereka?</h5>
+                    <p></p>
+                    <p>-Berkat kelas UI/UX, saya berhasil mendapatkan pekerjaan saya sebagai desaigner.</p>
+                    <p>-Sarah, UI Designer</p>
+                </div>
+                <div class="carousel-item bg-success text-dark text-center">
+                    📱
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+
+                </div>
+                <div class="carousel-item  bg-primary text-dark text-center">
+                    💻
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container d-flex">
+            <div class="courses d-grid mt-4 ms-5 shadow-sm p-4 y--5px-hover">
+
+                <div class="course-card">
+                    <div class="bg-primary text-center">💻</div>
+                    <span class="badge pemula text-light bg-danger">Best Seller</span>
+                    <h3>UltraBook Pro 14"</h3>
+                    <p class="text-secondary">Intel Core i7, 16GB RAM, 512GB SSD, layar OLED 2k. Tipis, ringan,
+                        bertenaga</p>
+                    <span class="harga text-dark fw-bold">Rp 12.500.000</span><br>
+                    <button class="btn btn-primary text-center col-12 mt-3">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="courses mt-4 ms-5 d-grid shadow-sm p-4">
+                <div class="course-card">
+                    <div class="bg-success text-center">📱</div>
+                    <span class="badge menengah text-dark bg-info">New</span>
+                    <h3>NexPhone X5</h3>
+                    <p class="text-secondary">Layar AMOLED 6.7". kamera 200mp, baterai 6000mAh, 5G, Fotografi level
+                        profesional</p>
+                    <span class="harga text-dark fw-bold">Rp 7.200.000</span><br>
+                    <button class="btn btn-success text-center col-12 mt-3">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="courses d-grid mt-4 ms-5 shadow-sm p-4">
+                <div class="course-card">
+                    <div class="bg-warning text-center">🎧</div>
+                    <span class="badge pemula text-light bg-success">Sale -30%</span>
+                    <h3>SoundMax Pro ANC</h3>
+                    <p class="text-secondary">Noise cancelling aktif, 40 jam baterai, audio Hi-Res, koneksi multipoint
+                        hingga 3 perangkat</p>
+                    <span class="harga text-dark fw-bold">Rp 1.400.000 <s class="fs-12">Rp.2.000.000</s></span><br>
+                    <button class="btn btn-warning text-center col-12 mt-3">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <br>
+
+        <p class="text-center">&copy; 2026 [2472056] [Effrain David Martoyo]. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

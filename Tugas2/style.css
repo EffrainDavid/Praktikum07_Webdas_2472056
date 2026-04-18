@@ -1,0 +1,29 @@
+body {
+    background-color: #f5f6f7;
+}
+
+.hero {
+    background: linear-gradient(90deg, #5f8dfc, #9b59b6);
+    color: white;
+}
+
+.carousel-item {
+    color: white;
+}
+
+.promo-box {
+    background: #ffc107;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    transition: 0.3s;
+}
